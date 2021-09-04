@@ -10,4 +10,8 @@ public class Cat extends Domestic{
     public void voice(){
         System.out.println("Hello, my name is " + getName() + ". I am a domestic animal. Meow!");
     }
+
+    public void play(){
+        System.out.println("I like catching mice!");
+    }
 }

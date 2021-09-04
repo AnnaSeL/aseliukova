@@ -9,4 +9,8 @@ public class Fish extends Domestic{
     public void voice(){
         System.out.println("........");
     }
+
+    public void thoughts(){
+        System.out.println("Unfortunately, I can't speak, but I like listening.");
+    }
 }

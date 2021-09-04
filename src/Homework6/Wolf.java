@@ -10,4 +10,8 @@ public class Wolf extends Wild{
     public void voice(){
         System.out.println("Hello. I am a wild animal and I am angry.");
     }
+
+    public void howl(){
+        System.out.println("I like howl at the moon.");
+    }
 }

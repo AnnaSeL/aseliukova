@@ -1,6 +1,6 @@
 package Homework6;
 
-public class GuideDog extends Domestic{
+public class GuideDog extends Dog{
 
     private boolean isTrained;
 
@@ -12,10 +12,25 @@ public class GuideDog extends Domestic{
 
     @Override
     public void voice(){
+        System.out.println("Hello, my name is " + getName() + ". I am a domestic animal.");
+    }
+
+    public void takeHome(){
         if(isTrained == true){
-        System.out.println("Hello, my name is " + getName() + ". I am a domestic animal. I can take you home.");
+            System.out.println("I can take you home.");
         }else{
-            System.out.println("Hello, my name is " + getName() + ". I am a domestic animal.");
+            System.out.println("I am not trained yet.");
         }
     }
+
+    @Override
+    public void swim(){
+        if(isTrained == true){
+            System.out.println("I even can swim with my owner.");
+        }else{
+            System.out.println("I am not trained for swimming yet.");
+        }
+    }
+
+
 }

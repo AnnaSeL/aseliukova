@@ -9,4 +9,8 @@ public class Dog extends Domestic{
     public void voice(){
         System.out.println("Hello, my name is " + getName() + ". I am a domestic animal. Woof!");
     }
+
+    public void swim(){
+        System.out.println("I can swim.");
+    }
 }

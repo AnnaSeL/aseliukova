@@ -31,4 +31,8 @@ public class Domestic extends Animal{
     public void voice(){
         System.out.println("Hello, my name is " + name + ". I am a domestic animal.");
     }
+
+    public void toPet(){
+        System.out.println("I like when my owner pets me.");
+    }
 }
