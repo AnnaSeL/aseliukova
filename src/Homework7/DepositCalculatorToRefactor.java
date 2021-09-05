@@ -19,9 +19,9 @@ public class DepositCalculatorToRefactor {
             if(i%10 == 1 && i/10%10 != 1 ) {
                 System.out.printf("Накопленная сумма за " + i + " год составила: %.2f грн\n", sum);
             }else if((i%10 == 2 || i%10 == 3 || i%10 == 4) && i/10%10 != 1){
-                System.out.printf("Накопленная сумма за " + i + " года составила: %.2f\n", sum);
+                System.out.printf("Накопленная сумма за " + i + " года составила: %.2f грн\n", sum);
             }else{
-                System.out.printf("Накопленная сумма за " + i + " лет составила: %.2f\n", sum);
+                System.out.printf("Накопленная сумма за " + i + " лет составила: %.2f грн\n", sum);
             }
             System.out.printf("Начисленные проценты в грн: %.2f\n", y);
             System.out.println("-------");
