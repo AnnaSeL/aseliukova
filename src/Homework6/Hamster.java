@@ -6,7 +6,8 @@ public class Hamster extends Domestic{
     }
 
     @Override
-    public void voice(){
-        System.out.println("Hello, my name is " + getName() + ". I am a domestic animal.");
+    public String voice(){
+        System.out.println(super.voice());
+        return super.voice();
     }
 }

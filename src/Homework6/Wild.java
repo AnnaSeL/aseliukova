@@ -18,7 +18,7 @@ public class Wild extends Animal{
     }
 
     @Override
-    public void voice(){
-        System.out.println("Hello. I am a wild animal.");
+    public String voice(){
+        return super.voice() + "I am a wild animal.";
     }
 }

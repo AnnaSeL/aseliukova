@@ -6,8 +6,9 @@ public class Fish extends Domestic{
     }
 
     @Override
-    public void voice(){
+    public String voice(){
         System.out.println("........");
+        return "........";
     }
 
     public void thoughts(){

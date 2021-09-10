@@ -13,8 +13,8 @@ public class Animal {
         this.color = color;
     }
 
-    public void voice(){
-        System.out.println("Hello!");
+    public String voice(){
+        return "Hello! ";
     }
 
     public int getId() {

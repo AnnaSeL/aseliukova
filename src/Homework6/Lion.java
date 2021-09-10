@@ -6,7 +6,13 @@ public class Lion extends Wild{
     }
 
     @Override
-    public void voice(){
-        System.out.println("Hello. I am a wild animal and I am angry.");
+    public String voice(){
+        if(isPredator()){
+            System.out.println(super.voice() + "I am angry.");
+            return (super.voice() + "I am angry.");
+        }else{
+            System.out.println(super.voice());
+            return super.voice();
+        }
     }
 }

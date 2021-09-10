@@ -6,8 +6,9 @@ public class Dog extends Domestic{
     }
 
     @Override
-    public void voice(){
-        System.out.println("Hello, my name is " + getName() + ". I am a domestic animal. Woof!");
+    public String voice(){
+        System.out.println(super.voice() + " Woof!");
+        return super.voice() + " Woof!";
     }
 
     public void swim(){

@@ -28,8 +28,8 @@ public class Domestic extends Animal{
     }
 
     @Override
-    public void voice(){
-        System.out.println("Hello, my name is " + name + ". I am a domestic animal.");
+    public String voice(){
+        return super.voice() + "My name is " + name + ". I am a domestic animal.";
     }
 
     public void toPet(){

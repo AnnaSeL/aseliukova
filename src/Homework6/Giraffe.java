@@ -6,7 +6,8 @@ public class Giraffe extends Wild{
     }
 
     @Override
-    public void voice(){
-        System.out.println("Hello. I am a wild animal.");
+    public String voice(){
+        System.out.println(super.voice());
+        return super.voice();
     }
 }
