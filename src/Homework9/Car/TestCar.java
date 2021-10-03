@@ -13,7 +13,6 @@ public class TestCar {
         double fuelPrice;
 
         CarV9 car = new CarV9("Odessa");
-        System.out.println(car.consumption + "     " + car.tank);
         car.setTripDistance(120);
         System.out.printf("Одесса. В баке сейчас %.0f литров. Какая цена топлива? \n", car.getFuelInTank());
         fuelPrice = sc.nextDouble();
