@@ -1,6 +1,6 @@
-package Homework9;
+package Homework8;
 
-import Homework9.Interfaces.TakeHome;
+import Homework8.Interfaces.TakeHome;
 
 public class GuideDog extends Dog implements TakeHome {
 

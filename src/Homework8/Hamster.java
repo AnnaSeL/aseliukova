@@ -1,4 +1,4 @@
-package Homework9;
+package Homework8;
 
 public class Hamster extends Domestic {
     public Hamster(int id, double weight, int age, String color, String name, boolean isVaccinated) {

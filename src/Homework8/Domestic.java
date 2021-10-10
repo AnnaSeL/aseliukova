@@ -1,7 +1,7 @@
-package Homework9;
+package Homework8;
 
-import Homework9.Interfaces.ToPet;
-import Homework9.Interfaces.Voice;
+import Homework8.Interfaces.ToPet;
+import Homework8.Interfaces.Voice;
 
 public class Domestic extends Animal implements Voice, ToPet {
 

@@ -1,7 +1,7 @@
-package Homework9;
+package Homework8;
 
-import Homework9.Interfaces.Play;
-import Homework9.Interfaces.Voice;
+import Homework8.Interfaces.Play;
+import Homework8.Interfaces.Voice;
 
 public class Cat extends Domestic implements Voice, Play {
 

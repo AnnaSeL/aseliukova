@@ -1,7 +1,7 @@
-package Homework9;
+package Homework8;
 
-import Homework9.Interfaces.Swim;
-import Homework9.Interfaces.Voice;
+import Homework8.Interfaces.Swim;
+import Homework8.Interfaces.Voice;
 
 public class Dog extends Domestic implements Swim, Voice {
     public Dog(int id, double weight, int age, String color, String name, boolean isVaccinated) {

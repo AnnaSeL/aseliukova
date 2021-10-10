@@ -1,6 +1,6 @@
-package Homework9;
+package Homework8;
 
-import Homework9.Interfaces.Voice;
+import Homework8.Interfaces.Voice;
 
 public class Animal implements Voice {
     private int id;

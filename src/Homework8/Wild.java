@@ -1,5 +1,5 @@
-package Homework9;
-import Homework9.Interfaces.Voice;
+package Homework8;
+import Homework8.Interfaces.Voice;
 
 public class Wild extends Animal implements Voice {
 

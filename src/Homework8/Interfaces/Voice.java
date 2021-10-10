@@ -1,4 +1,4 @@
-package Homework9.Interfaces;
+package Homework8.Interfaces;
 
 public interface Voice {
 

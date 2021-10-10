@@ -1,6 +1,6 @@
-package Homework9;
+package Homework8;
 
-import Homework9.Interfaces.Howl;
+import Homework8.Interfaces.Howl;
 
 public class Wolf extends Wild implements Howl {
 
