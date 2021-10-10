@@ -1,4 +1,4 @@
-package Homework9;
+package HWToLes11;
 
 public interface StringCollection {
     String get(int index);

@@ -1,4 +1,4 @@
-package Homework9;
+package HWToLes11;
 
 public class StingCollectionImpl implements StringCollection{
     int size;
